@@ -1,0 +1,11 @@
+# BTVN03 · không cần API key: model giả lập ở lib/model_gia.py
+langchain>=1.0
+langchain-core>=1.0
+langgraph>=1.0
+python-dotenv>=1.0
+streamlit>=1.40
+pandas
+
+# Chỉ cần khi chạy với model thật (đặt SE373_MODEL trong .env). Chọn một:
+# langchain-openai>=1.0
+# langchain-anthropic>=1.0
